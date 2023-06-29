@@ -299,12 +299,16 @@ const drawInputByTextSchema = async (arg: {
       const textWidth =
         pdfFontValue.widthOfTextAtSize(splitedLine, size) +
         (splitedLine.length - 1) * characterSpacing;
+      const y = calcY(templateSchema.position.y, pageHeight, size) -
+          lineHeight * size * (inputLineIndex + splitedLineIndex + beforeLineOver) -
+        (lineHeight === 0 ? 0 : ((lineHeight - 1) * size) / 2)
+      const corrValue = 1.8
+      const maxPositionY = calcY(templateSchema.position.y, pageHeight, size) - mm2pt(templateSchema.height) + (lineHeight * size) / corrValue
+
+      if (y < maxPositionY) return
       page.drawText(splitedLine, {
         x: calcX(templateSchema.position.x, alignment, width, textWidth),
-        y:
-          calcY(templateSchema.position.y, pageHeight, size) -
-          lineHeight * size * (inputLineIndex + splitedLineIndex + beforeLineOver) -
-          (lineHeight === 0 ? 0 : ((lineHeight - 1) * size) / 2),
+        y,
         rotate,
         size,
         color,
