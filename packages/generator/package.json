@@ -1,6 +1,6 @@
 {
   "name": "@pdfme/generator",
-  "version": "1.1.5",
+  "version": "1.1.5-custom-base",
   "sideEffects": false,
   "author": "hand-dot",
   "license": "MIT",
@@ -16,10 +16,10 @@
   "homepage": "https://pdfme.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:pdfme/pdfme.git"
+    "url": "git@github.com:lisb/pdfme.git"
   },
   "bugs": {
-    "url": "https://github.com/pdfme/pdfme/issues"
+    "url": "https://github.com/lisb/pdfme/issues"
   },
   "main": "dist/cjs/src/index.js",
   "module": "dist/esm/src/index.js",
@@ -78,6 +78,6 @@
     ]
   },
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@pdfme/ui",
-  "version": "1.1.5",
+  "version": "1.1.5-custom-base",
   "sideEffects": false,
   "author": "hand-dot",
   "license": "MIT",
@@ -16,10 +16,10 @@
   "homepage": "https://pdfme.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:pdfme/pdfme.git"
+    "url": "git@github.com:lisb/pdfme.git"
   },
   "bugs": {
-    "url": "https://github.com/pdfme/pdfme/issues"
+    "url": "https://github.com/lisb/pdfme/issues"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -92,6 +92,6 @@
     ]
   },
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   }
 }
