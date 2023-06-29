@@ -1,0 +1,45 @@
+name: Publish custom pdfme package
+
+on:
+  push:
+    branches:
+      - text-schema-overflow
+  
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      permissions:
+        packages: write
+        contents: read
+      
+      steps:
+        - uses: actions/checkout@v3
+
+        - uses: actions/setup-node@v3
+          with:
+            node-version: 19
+            registry-url: https://npm.pkg.github.com/
+
+        - name: install root
+          run: npm install
+
+        - name: install common
+          run: npm install
+          working-directory: packages/common
+
+        - name: install ui
+          run: npm install
+          working-directory: packages/ui
+
+        - name: install generator
+          run: npm install
+          working-directory: packages/generator
+
+        - name: build all
+          run: npm run build
+
+        - name: publish all
+          run: npm run publish
+          env:
+            NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        

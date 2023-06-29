@@ -30,6 +30,10 @@
     "build": "npm run --workspaces clean && npm run --workspaces build",
     "test": "npm run --workspaces test"
   },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://pkg.github.com/lisb"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@types/jest": "^27.4.0",
