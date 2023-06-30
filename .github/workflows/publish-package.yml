@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: 19
           registry-url: https://npm.pkg.github.com/
+          scope: '@lisb'
+          always-auth: true
 
       - name: install root
         run: npm install
