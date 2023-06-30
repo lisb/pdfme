@@ -32,11 +32,7 @@
   },
   "publishConfig": {
     "access": "restricted",
-    "registry": "https://pkg.github.com/",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/lisb/pdfme.git"
-    }
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
