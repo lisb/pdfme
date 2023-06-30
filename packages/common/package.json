@@ -16,7 +16,7 @@
   "homepage": "https://pdfme.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:lisb/pdfme.git"
+    "url": "https://github.com/lisb/pdfme/common.git"
   },
   "bugs": {
     "url": "https://github.com/lisb/pdfme/issues"
