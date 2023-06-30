@@ -40,7 +40,20 @@ jobs:
       - name: build all
         run: npm run build
 
-      - name: publish all
+      - name: publish common
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: packages/common
+
+      - name: publish generator
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: packages/generator
+
+      - name: publish ui
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: packages/ui
