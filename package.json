@@ -1,6 +1,6 @@
 {
   "name": "@lisb/pdfme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "author": "hand-dot",
   "license": "MIT",
@@ -31,6 +31,7 @@
     "test": "npm run --workspaces test"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
