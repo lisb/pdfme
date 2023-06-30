@@ -11,7 +11,6 @@ jobs:
     permissions:
       packages: write
       contents: read
-    env: 
       
     steps:
       - uses: actions/checkout@v3
