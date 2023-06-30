@@ -32,7 +32,7 @@
   },
   "publishConfig": {
     "access": "restricted",
-    "@lisb:registry": "https://pkg.github.com/lisb"
+    "registry": "https://pkg.github.com/"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
