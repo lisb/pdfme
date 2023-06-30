@@ -31,7 +31,6 @@
     "test": "npm run --workspaces test"
   },
   "publishConfig": {
-    "access": "restricted",
     "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
