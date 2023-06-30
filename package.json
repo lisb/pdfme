@@ -32,7 +32,7 @@
   },
   "publishConfig": {
     "access": "restricted",
-    "registry": "https://pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
