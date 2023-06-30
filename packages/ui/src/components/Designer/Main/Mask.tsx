@@ -1,5 +1,5 @@
 import React from 'react';
-import { Size } from '@pdfme/common';
+import { Size } from '@lisb/pdfme-common';
 import { RULER_HEIGHT } from '../../../constants';
 
 const Mask = ({ width, height }: Size) => (

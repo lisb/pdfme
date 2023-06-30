@@ -71,7 +71,7 @@ exports[`Preview(as Form) snapshot 1`] = `
       style="transform: scale(1); transform-origin: center top; width: 1200px; height: 1200px;"
     >
       <div
-        id="@pdfme/ui-paper0"
+        id="@lisb/pdfme-ui-paper0"
         style="font-family: 'Helvetica'; top: 30px; left: 0px; margin: 0px auto; position: relative; background-image: url(data:image/png;base64,a...); background-size: 793.700787411px 1122.5196850527px; width: 793.700787411px; height: 1122.5196850527px;"
       >
         <div>
@@ -216,7 +216,7 @@ exports[`Preview(as Viewer) snapshot 1`] = `
       style="transform: scale(1); transform-origin: center top; width: 1200px; height: 1200px;"
     >
       <div
-        id="@pdfme/ui-paper0"
+        id="@lisb/pdfme-ui-paper0"
         style="font-family: 'Helvetica'; top: 30px; left: 0px; margin: 0px auto; position: relative; background-image: url(data:image/png;base64,a...); background-size: 793.700787411px 1122.5196850527px; width: 793.700787411px; height: 1122.5196850527px;"
       >
         <div>

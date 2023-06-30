@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useState, useEffect } from 'react';
-import { PreviewReactProps, SchemaForUI } from '@pdfme/common';
+import { PreviewReactProps, SchemaForUI } from '@lisb/pdfme-common';
 import { ZOOM, RULER_HEIGHT } from '../constants';
 import UnitPager from './UnitPager';
 import Root from './Root';

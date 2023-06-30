@@ -1,5 +1,5 @@
 import React, { CSSProperties } from 'react';
-import { SchemaForUI } from '@pdfme/common';
+import { SchemaForUI } from '@lisb/pdfme-common';
 import { round } from '../../../../helper';
 import { SidebarProps } from '../index';
 

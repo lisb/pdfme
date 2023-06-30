@@ -38,7 +38,7 @@ Let's check out how to set font in the generator and ui packages.
 Set font as option in [generate](/docs/getting-started#generator) function
 
 ```ts
-import { Template, BLANK_PDF, generate } from '@pdfme/generator';
+import { Template, BLANK_PDF, generate } from '@lisb/pdfme-generator';
 
 const font = {
   serif: {
@@ -98,7 +98,7 @@ The sample code is for [Designer](/docs/getting-started#designer), but the same 
 #### Setting font at instance initialization
 
 ```ts
-import { Designer } from "@pdfme/ui";
+import { Designer } from "@lisb/pdfme-ui";
 
 const domContainer = document.getElementById('container');
 const template = {

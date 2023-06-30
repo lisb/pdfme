@@ -8,7 +8,7 @@ import Preview from '../../src/components/Preview';
 import { I18nContext, FontContext } from '../../src/contexts';
 import { curriedI18n } from '../../src/i18n';
 import { SELECTABLE_CLASSNAME } from '../../src/constants';
-import { getDefaultFont } from '@pdfme/common';
+import { getDefaultFont } from '@lisb/pdfme-common';
 import { setupUIMock, getSampleTemplate } from '../assets/helper';
 
 test('Preview(as Viewer) snapshot', async () => {

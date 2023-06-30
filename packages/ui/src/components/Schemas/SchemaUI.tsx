@@ -1,5 +1,5 @@
 import React, { forwardRef, RefObject, Ref, ReactNode } from 'react';
-import { SchemaForUI, isTextSchema, isImageSchema, isBarcodeSchema } from '@pdfme/common';
+import { SchemaForUI, isTextSchema, isImageSchema, isBarcodeSchema } from '@lisb/pdfme-common';
 import { ZOOM, SELECTABLE_CLASSNAME } from '../../constants';
 import TextSchema from './TextSchema';
 import ImageSchema from './ImageSchema';

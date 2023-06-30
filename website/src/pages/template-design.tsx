@@ -6,8 +6,8 @@ import {
   CodeOutlined,
   PreviewOutlined,
 } from '@mui/icons-material';
-import { generate, Template } from '@pdfme/generator';
-import { Designer } from '@pdfme/ui';
+import { generate, Template } from '@lisb/pdfme-generator';
+import { Designer } from '@lisb/pdfme-ui';
 import Layout from '@theme/Layout';
 import {
   getSampleTemplate,

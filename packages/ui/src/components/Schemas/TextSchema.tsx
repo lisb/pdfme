@@ -6,7 +6,7 @@ import {
   DEFAULT_CHARACTER_SPACING,
   DEFAULT_FONT_COLOR,
   TextSchema,
-} from '@pdfme/common';
+} from '@lisb/pdfme-common';
 import { SchemaUIProps } from './SchemaUI';
 import { ZOOM } from '../../constants';
 

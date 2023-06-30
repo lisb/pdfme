@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { SchemaForUI, Size } from '@pdfme/common';
+import { SchemaForUI, Size } from '@lisb/pdfme-common';
 import { RULER_HEIGHT, SIDEBAR_WIDTH } from '../../../constants';
 import { I18nContext } from '../../../contexts';
 import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/24/outline';

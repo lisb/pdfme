@@ -1,7 +1,7 @@
 import { PDFDocument } from 'pdf-lib';
 import fontkit from '@pdf-lib/fontkit';
-import type { GenerateProps, Template, Font } from '@pdfme/common';
-import { getDefaultFont, getFallbackFontName, checkGenerateProps } from '@pdfme/common';
+import type { GenerateProps, Template, Font } from '@lisb/pdfme-common';
+import { getDefaultFont, getFallbackFontName, checkGenerateProps } from '@lisb/pdfme-common';
 import {
   getEmbeddedPagesAndEmbedPdfBoxes,
   drawInputByTemplateSchema,

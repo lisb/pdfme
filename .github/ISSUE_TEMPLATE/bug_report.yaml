@@ -28,7 +28,7 @@ body:
       label: Your Environment
       description: A clear and concise description of your environment
       value: |
-        - pdfme package(@pdfme/generator or @pdfme/ui):
+        - pdfme package(@lisb/pdfme-generator or @lisb/pdfme-ui):
         - pdfme version:
         - Operating system:
         - Node.js version or Browser name & version:

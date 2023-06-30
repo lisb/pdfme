@@ -36,19 +36,19 @@ const sidebars = {
       items: [
         {
           type: 'category',
-          label: '@pdfme/common',
+          label: '@lisb/pdfme-common',
           link: { type: 'doc', id: 'api/common/index' },
           items: ['api/common/index'],
         },
         {
           type: 'category',
-          label: '@pdfme/generator',
+          label: '@lisb/pdfme-generator',
           link: { type: 'doc', id: 'api/generator/index' },
           items: ['api/generator/index'],
         },
         {
           type: 'category',
-          label: '@pdfme/ui',
+          label: '@lisb/pdfme-ui',
           link: { type: 'doc', id: 'api/ui/index' },
           items: [
             'api/ui/index',

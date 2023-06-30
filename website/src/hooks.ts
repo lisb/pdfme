@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { Form, Viewer, Template } from '@pdfme/ui';
+import { Form, Viewer, Template } from '@lisb/pdfme-ui';
 import { getFont, cloneDeep } from './libs/helper';
 
 export const useForm = (props: {
