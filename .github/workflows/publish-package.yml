@@ -3,7 +3,7 @@ name: Publish custom pdfme package
 on:
   push:
     branches:
-      - text-schema-overflow
+      - 1.1.5-custom
   
 jobs:
   build:
