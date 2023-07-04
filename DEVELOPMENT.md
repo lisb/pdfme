@@ -18,19 +18,19 @@ Make sure that any changes are output to the each packages's `dist` folder.
 ```
 
 To confirm the changes, for example, create a React application with `npx create-react-app my-app` in other folder and
-Install `@pdfme/generator` and `@pdfme/ui` with the following command.
+Install `@lisb/pdfme-generator` and `@lisb/pdfme-ui` with the following command.
 
 ```cmd
-[in my-app dir] $ npm install --save @pdfme/generator @pdfme/ui
+[in my-app dir] $ npm install --save @lisb/pdfme-generator @lisb/pdfme-ui
 ```
 
 In addition, connect `packages/generator` and `packages/ui`, which you npm linked above, to my-app with the following command
 
 ```cmd
-[in my-app dir] $ npm link @pdfme/generator @pdfme/ui
+[in my-app dir] $ npm link @lisb/pdfme-generator @lisb/pdfme-ui
 ```
 
-> If you don't want to prepare my-app by yourself, you can clone the following repository and use npm link @pdfme/generator @pdfme/ui to develop it.  
+> If you don't want to prepare my-app by yourself, you can clone the following repository and use npm link @lisb/pdfme-generator @lisb/pdfme-ui to develop it.  
 > https://github.com/pdfme/pdfme-playground
 
 You can use `npm ls` to check if the `npm link` is configured correctly as follows.
@@ -38,8 +38,8 @@ You can use `npm ls` to check if the `npm link` is configured correctly as follo
 ```cmd
 [in my-app dir] $ npm ls
 my-app@0.1.0 /Users/user/my-app
-├── @pdfme/generator@npm:generator@1.0.0-beta.7 extraneous -> ./../../../pdfme/packages/generator
-├── @pdfme/ui@npm:ui@1.0.0-beta.7 extraneous -> ./../../../pdfme/packages/ui
+├── @lisb/pdfme-generator@npm:generator@1.0.0-beta.7 extraneous -> ./../../../pdfme/packages/generator
+├── @lisb/pdfme-ui@npm:ui@1.0.0-beta.7 extraneous -> ./../../../pdfme/packages/ui
 ├── @testing-library/jest-dom@5.16.2
 ├── @testing-library/react@12.1.2
 ├── @testing-library/user-event@13.5.0
@@ -49,6 +49,6 @@ my-app@0.1.0 /Users/user/my-app
 └── web-vitals@2.1.4
 ```
 
-Now, changes in `packages/common`, `packages/generator`, and `packages/ui` will be reflected in my-app's @pdfme/generator and @pdfme/ui.
+Now, changes in `packages/common`, `packages/generator`, and `packages/ui` will be reflected in my-app's @lisb/pdfme-generator and @lisb/pdfme-ui.
 
 If you run npm run start on my-app and rewrite `packages/common`, `packages/generator`, and `packages/ui`, you can confirm the changes on my-app

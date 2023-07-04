@@ -1,6 +1,6 @@
 {
-  "name": "@pdfme/common",
-  "version": "1.1.5",
+  "name": "@lisb/pdfme-common",
+  "version": "1.1.6",
   "sideEffects": false,
   "author": "hand-dot",
   "license": "MIT",
@@ -16,10 +16,10 @@
   "homepage": "https://pdfme.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:pdfme/pdfme.git"
+    "url": "https://github.com/lisb/pdfme-common.git"
   },
   "bugs": {
-    "url": "https://github.com/pdfme/pdfme/issues"
+    "url": "https://github.com/lisb/pdfme/issues"
   },
   "main": "dist/cjs/src/index.js",
   "module": "dist/esm/src/index.js",

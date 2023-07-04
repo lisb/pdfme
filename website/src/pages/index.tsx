@@ -7,8 +7,8 @@ import HomepageHeader from '../components/HomepageHeader';
 import Divider from '../components/Divider';
 import Code from '../components/Code';
 import GithubStar from '../components/GithubStar';
-import { generate, Template } from '@pdfme/generator';
-import { Designer, Viewer, Form } from '@pdfme/ui';
+import { generate, Template } from '@lisb/pdfme-generator';
+import { Designer, Viewer, Form } from '@lisb/pdfme-ui';
 import { getSampleTemplate, cloneDeep, getGeneratorSampleCode } from '../libs/helper';
 
 export default function Home(): JSX.Element {

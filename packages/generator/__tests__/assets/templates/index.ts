@@ -1,4 +1,4 @@
-import { Template, BLANK_PDF } from '@pdfme/common';
+import { Template, BLANK_PDF } from '@lisb/pdfme-common';
 
 /* eslint global-require: off*/
 /* eslint @typescript-eslint/no-var-requires: off*/

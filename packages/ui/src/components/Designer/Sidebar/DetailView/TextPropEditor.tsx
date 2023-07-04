@@ -6,7 +6,7 @@ import {
   DEFAULT_LINE_HEIGHT,
   DEFAULT_CHARACTER_SPACING,
   DEFAULT_FONT_COLOR,
-} from '@pdfme/common';
+} from '@lisb/pdfme-common';
 import { FontContext } from '../../../../contexts';
 import { SidebarProps } from '..';
 import { XMarkIcon } from '@heroicons/react/24/outline';

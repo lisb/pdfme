@@ -6,11 +6,11 @@
   <a href="https://github.com/pdfme/pdfme/actions/workflows/nodejs.yml">
     <img src="https://github.com/pdfme/pdfme/workflows/Unit%20Testing/badge.svg" alt="Unit Testing status" />
   </a>
-  <a href="https://www.npmjs.com/package/@pdfme/generator">
-    <img src="https://img.shields.io/npm/v/@pdfme/generator.svg" alt="Current npm package version." />
+  <a href="https://www.npmjs.com/package/@lisb/pdfme-generator">
+    <img src="https://img.shields.io/npm/v/@lisb/pdfme-generator.svg" alt="Current npm package version." />
   </a>
-  <a href="https://npmcharts.com/compare/@pdfme/generator?minimal=true">
-    <img src="https://img.shields.io/npm/dm/@pdfme/generator.svg" alt="Downloads per month on npm." />
+  <a href="https://npmcharts.com/compare/@lisb/pdfme-generator?minimal=true">
+    <img src="https://img.shields.io/npm/dm/@lisb/pdfme-generator.svg" alt="Downloads per month on npm." />
   </a>
   <a href="https://pdfme.com/help#contribution">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
@@ -59,23 +59,23 @@ There are two packages in pdfme, generator and UI.
 The package for generating PDF can be installed with the following command.
 
 ```
-npm i @pdfme/generator
+npm i @lisb/pdfme-generator
 ```
 
 The packages for using PDF designer, forms and viewers can be installed with the following commands.
 
 ```
-npm i @pdfme/ui
+npm i @lisb/pdfme-ui
 ```
 
 The following type, function and classes are available in pdfme.
 
-`@pdfme/generator`
+`@lisb/pdfme-generator`
 
 - [generate](https://pdfme.com/docs/getting-started#generator)
 - [Template](https://pdfme.com/docs/getting-started#template)
 
-`@pdfme/ui`
+`@lisb/pdfme-ui`
 
 - [Designer](https://pdfme.com/docs/getting-started#designer)
 - [Form](https://pdfme.com/docs/getting-started#form)
@@ -85,11 +85,11 @@ The following type, function and classes are available in pdfme.
 If your environment uses webpack, import the necessary items as shown below.
 
 ```ts
-import { Template, generate } from '@pdfme/generator';
+import { Template, generate } from '@lisb/pdfme-generator';
 ```
 
 ```ts
-import { Template, Designer, Form, Viewer } from '@pdfme/ui';
+import { Template, Designer, Form, Viewer } from '@lisb/pdfme-ui';
 ```
 
 **All objects use `Template`, which will be briefly explained in the next section.**
@@ -97,7 +97,7 @@ import { Template, Designer, Form, Viewer } from '@pdfme/ui';
 ## Template
 
 The core of pdfme library are Templates.  
-Template Type can be imported by both `@pdfme/generator` or `@pdfme/ui`. Templates are used everywhere.
+Template Type can be imported by both `@lisb/pdfme-generator` or `@lisb/pdfme-ui`. Templates are used everywhere.
 
 A template can be divided into two parts: a fixed part and a variable part.  
 We call them basePdf and schema.
@@ -123,8 +123,8 @@ Let's take a look at some specific data.
 ### Minimal Template
 
 ```ts
-import { Template, BLANK_PDF } from '@pdfme/generator';
-// import { Template, BLANK_PDF } from '@pdfme/ui'; <- Template types and BLANK_PDF can also be imported from @pdfme/ui.
+import { Template, BLANK_PDF } from '@lisb/pdfme-generator';
+// import { Template, BLANK_PDF } from '@lisb/pdfme-ui'; <- Template types and BLANK_PDF can also be imported from @lisb/pdfme-ui.
 
 const template: Template = {
   basePdf: BLANK_PDF,
@@ -164,7 +164,7 @@ The PDF generator function, `generate`, takes 2 arguments of `template` and `inp
 The code to generate a PDF file using the [template created above](https://pdfme.com/docs/getting-started#sample-template) is shown below.
 
 ```ts
-import { Template, generate } from '@pdfme/generator';
+import { Template, generate } from '@lisb/pdfme-generator';
 
 const template: Template = {
   // skip...　Check the Template section.
@@ -202,7 +202,7 @@ You can design your own template from [Template Design page](https://pdfme.com/t
 Let's integrate the designer using the template created above as the default template.
 
 ```ts
-import { Template, Designer } from '@pdfme/ui';
+import { Template, Designer } from '@lisb/pdfme-ui';
 
 const domContainer = document.getElementById('container');
 const template: Template = {
@@ -235,7 +235,7 @@ You can use templates to create forms and PDF viewers.
 The Form creates a UI for the user to enter schemas based on the template.
 
 ```ts
-import { Template, Form } from '@pdfme/ui';
+import { Template, Form } from '@lisb/pdfme-ui';
 
 const domContainer = document.getElementById('container');
 const template: Template = {
@@ -271,7 +271,7 @@ The Viewer is a byproduct of the Form development process, but it allows you to 
 Using the Viewer is basically the same as using the Form, except that user cannot edit it.
 
 ```ts
-import { Template, Viewer } from '@pdfme/ui';
+import { Template, Viewer } from '@lisb/pdfme-ui';
 
 const domContainer = document.getElementById('container');
 const template: Template = {

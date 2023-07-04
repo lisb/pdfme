@@ -8,7 +8,7 @@ import React, {
   useCallback,
 } from 'react';
 import { OnDrag, OnResize, OnClick } from 'react-moveable';
-import { SchemaForUI, Size } from '@pdfme/common';
+import { SchemaForUI, Size } from '@lisb/pdfme-common';
 import { ZOOM, RULER_HEIGHT } from '../../../constants';
 import { usePrevious } from '../../../hooks';
 import { uuid, round, flatten } from '../../../helper';

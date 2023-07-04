@@ -17,7 +17,7 @@ import {
   DEFAULT_FONT_SIZE,
   DEFAULT_CHARACTER_SPACING,
   DEFAULT_LINE_HEIGHT,
-} from '@pdfme/common';
+} from '@lisb/pdfme-common';
 import { ZOOM, RULER_HEIGHT } from './constants';
 
 export const uuid = () =>

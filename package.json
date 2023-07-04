@@ -1,7 +1,7 @@
 {
-  "name": "root",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@lisb/pdfme",
+  "version": "0.0.3",
+  "private": false,
   "author": "hand-dot",
   "license": "MIT",
   "keywords": [
@@ -16,10 +16,10 @@
   "homepage": "https://pdfme.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:pdfme/pdfme.git"
+    "url": "https://github.com/lisb/pdfme.git"
   },
   "bugs": {
-    "url": "https://github.com/pdfme/pdfme/issues"
+    "url": "https://github.com/lisb/pdfme/issues"
   },
   "workspaces": [
     "packages/*"
@@ -29,6 +29,10 @@
     "lint": "npm run --workspaces lint",
     "build": "npm run --workspaces clean && npm run --workspaces build",
     "test": "npm run --workspaces test"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",

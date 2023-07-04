@@ -1,5 +1,5 @@
 import React, { forwardRef, Ref } from 'react';
-import { validateBarcodeInput, BarCodeType, BarcodeSchema } from '@pdfme/common';
+import { validateBarcodeInput, BarCodeType, BarcodeSchema } from '@lisb/pdfme-common';
 import { ZOOM } from '../../constants';
 import { SchemaUIProps } from './SchemaUI';
 

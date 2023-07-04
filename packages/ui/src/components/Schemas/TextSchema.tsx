@@ -6,7 +6,7 @@ import {
   DEFAULT_CHARACTER_SPACING,
   DEFAULT_FONT_COLOR,
   TextSchema,
-} from '@pdfme/common';
+} from '@lisb/pdfme-common';
 import { SchemaUIProps } from './SchemaUI';
 import { ZOOM } from '../../constants';
 
@@ -34,7 +34,7 @@ const TextSchemaUI = (
     color: schema.fontColor ? schema.fontColor : DEFAULT_FONT_COLOR,
     backgroundColor:
       schema.data && schema.backgroundColor ? schema.backgroundColor : 'rgb(242 244 255 / 75%)',
-    overflowY: "hidden",    
+    overflowY: "hidden",
   };
 
   return editable ? (

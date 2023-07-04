@@ -1,5 +1,5 @@
 import React, { useContext, useRef, useCallback } from 'react';
-import { schemaTypes, SchemaForUI } from '@pdfme/common';
+import { schemaTypes, SchemaForUI } from '@lisb/pdfme-common';
 import { SidebarProps } from '../index';
 import { I18nContext } from '../../../../contexts';
 

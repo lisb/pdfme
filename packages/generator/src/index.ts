@@ -23,7 +23,7 @@ export type {
   UIProps,
   PreviewProps,
   DesignerProps,
-} from '@pdfme/common';
+} from '@lisb/pdfme-common';
 
 export {
   BLANK_PDF,
@@ -36,4 +36,4 @@ export {
   checkDesignerProps,
   checkGenerateProps,
   validateBarcodeInput,
-} from '@pdfme/common';
+} from '@lisb/pdfme-common';

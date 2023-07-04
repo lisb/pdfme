@@ -1,6 +1,6 @@
 ---
 id: "index"
-title: "@pdfme/generator"
+title: "@lisb/pdfme-generator"
 slug: "/api/generator/"
 sidebar_label: "Exports"
 sidebar_position: 0.5

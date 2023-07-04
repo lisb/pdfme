@@ -1,4 +1,4 @@
-import { SchemaForUI, Schema } from '@pdfme/common';
+import { SchemaForUI, Schema } from '@lisb/pdfme-common';
 import { uuid, getUniqSchemaKey } from '../src/helper';
 
 describe('getUniqSchemaKey test', () => {

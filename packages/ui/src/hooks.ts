@@ -1,5 +1,5 @@
 import { RefObject, useRef, useState, useCallback, useEffect } from 'react';
-import { Template, Size, getB64BasePdf } from '@pdfme/common';
+import { Template, Size, getB64BasePdf } from '@lisb/pdfme-common';
 import { pdf2Pngs, getPdfPageSizes, b64toBlob } from './helper';
 import { ZOOM, RULER_HEIGHT } from './constants';
 

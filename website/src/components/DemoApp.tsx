@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { generate, Template, BLANK_PDF, checkTemplate } from '@pdfme/generator';
+import { generate, Template, BLANK_PDF, checkTemplate } from '@lisb/pdfme-generator';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';

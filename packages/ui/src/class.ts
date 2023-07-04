@@ -16,7 +16,7 @@ import {
   checkInputs,
   checkUIOptions,
   checkPreviewProps,
-} from '@pdfme/common';
+} from '@lisb/pdfme-common';
 
 const generateColumnsAndSampledataIfNeeded = (template: Template) => {
   const { schemas, columns, sampledata } = template;

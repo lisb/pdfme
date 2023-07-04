@@ -30,7 +30,7 @@ import {
   DEFAULT_LINE_HEIGHT,
   DEFAULT_CHARACTER_SPACING,
   DEFAULT_FONT_COLOR,
-} from '@pdfme/common';
+} from '@lisb/pdfme-common';
 
 export interface InputImageCache {
   [key: string]: PDFImage | undefined;

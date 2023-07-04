@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect, useContext, useCallback } from 'react';
-import { DesignerReactProps, Template, SchemaForUI } from '@pdfme/common';
+import { DesignerReactProps, Template, SchemaForUI } from '@lisb/pdfme-common';
 import Sidebar from './Sidebar/index';
 import Main from './Main/index';
 import { ZOOM, RULER_HEIGHT } from '../../constants';

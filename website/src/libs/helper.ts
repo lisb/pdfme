@@ -1,4 +1,4 @@
-import { Template, Font, checkTemplate } from '@pdfme/generator';
+import { Template, Font, checkTemplate } from '@lisb/pdfme-generator';
 import { examplePdfb64, dogPngb64 } from './sampleData';
 
 export const getSampleTemplate = (): Template => ({
@@ -147,7 +147,7 @@ const templateFmt4SampleCode = (template: Template) =>
   );
 
 export const getGeneratorSampleCode = (template: Template) =>
-  `import { generate } from "@pdfme/generator";
+  `import { generate } from "@lisb/pdfme-generator";
 
 (async () => {
   const template = ${templateFmt4SampleCode(template)};
@@ -164,7 +164,7 @@ export const getGeneratorSampleCode = (template: Template) =>
 })();`.trim();
 
 export const getDesignerSampleCode = (template: Template) =>
-  `import { Designer } from "@pdfme/ui";
+  `import { Designer } from "@lisb/pdfme-ui";
 
 const domContainer = document.getElementById('container');
 const template = ${templateFmt4SampleCode(template)};
@@ -172,7 +172,7 @@ const template = ${templateFmt4SampleCode(template)};
 const designer = new Designer({ domContainer, template });`.trim();
 
 export const getFormSampleCode = (template: Template) =>
-  `import { Form } from "@pdfme/ui";
+  `import { Form } from "@lisb/pdfme-ui";
 
 const domContainer = document.getElementById('container');
 const template = ${templateFmt4SampleCode(template)};
@@ -181,7 +181,7 @@ const inputs = ${JSON.stringify(cloneDeep(template.sampledata), null, 2)};
 const form = new Form({ domContainer, template, inputs });`.trim();
 
 export const getViewerSampleCode = (template: Template) =>
-  `import { Viewer } from "@pdfme/ui";
+  `import { Viewer } from "@lisb/pdfme-ui";
 
 const domContainer = document.getElementById('container');
 const template = ${templateFmt4SampleCode(template)};

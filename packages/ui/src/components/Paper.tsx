@@ -1,5 +1,5 @@
 import React, { MutableRefObject, ReactNode, useContext } from 'react';
-import { SchemaForUI, Size, getFallbackFontName } from '@pdfme/common';
+import { SchemaForUI, Size, getFallbackFontName } from '@lisb/pdfme-common';
 import { FontContext } from '../contexts';
 import { ZOOM, RULER_HEIGHT } from '../constants';
 
@@ -35,7 +35,7 @@ const Paper = (porps: {
 
         return (
           <div
-            id={`@pdfme/ui-paper${paperIndex}`}
+            id={`@lisb/pdfme-ui-paper${paperIndex}`}
             key={paperIndex + JSON.stringify(paperSize)}
             ref={(e) => {
               if (e) {

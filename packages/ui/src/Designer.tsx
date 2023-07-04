@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Template, DesignerProps, checkDesignerProps, checkTemplate } from '@pdfme/common';
+import { Template, DesignerProps, checkDesignerProps, checkTemplate } from '@lisb/pdfme-common';
 import { BaseUIClass } from './class';
 import { DESTROYED_ERR_MSG } from './constants';
 import { I18nContext, FontContext } from './contexts';

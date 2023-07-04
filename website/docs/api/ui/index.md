@@ -1,6 +1,6 @@
 ---
 id: "index"
-title: "@pdfme/ui"
+title: "@lisb/pdfme-ui"
 slug: "/api/ui/"
 sidebar_label: "Exports"
 sidebar_position: 0.5

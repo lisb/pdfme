@@ -1,6 +1,6 @@
 {
-  "name": "@pdfme/ui",
-  "version": "1.1.5",
+  "name": "@lisb/pdfme-ui",
+  "version": "1.1.6",
   "sideEffects": false,
   "author": "hand-dot",
   "license": "MIT",
@@ -16,10 +16,10 @@
   "homepage": "https://pdfme.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:pdfme/pdfme.git"
+    "url": "https://github.com/lisb/pdfme-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/pdfme/pdfme/issues"
+    "url": "https://github.com/lisb/pdfme/issues"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -41,7 +41,7 @@
     "@dnd-kit/core": "^5.0.1",
     "@dnd-kit/sortable": "^6.0.0",
     "@heroicons/react": "^2.0.13",
-    "@pdfme/common": "^1.0.0",
+    "@lisb/pdfme-common": "^1.0.0",
     "@scena/react-guides": "^0.16.0",
     "hotkeys-js": "^3.8.7",
     "pdfjs-dist": "^2.12.313",

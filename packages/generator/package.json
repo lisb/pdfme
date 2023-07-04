@@ -1,6 +1,6 @@
 {
-  "name": "@pdfme/generator",
-  "version": "1.1.5",
+  "name": "@lisb/pdfme-generator",
+  "version": "1.1.6",
   "sideEffects": false,
   "author": "hand-dot",
   "license": "MIT",
@@ -16,10 +16,10 @@
   "homepage": "https://pdfme.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:pdfme/pdfme.git"
+    "url": "https://github.com/lisb/pdfme-generator.git"
   },
   "bugs": {
-    "url": "https://github.com/pdfme/pdfme/issues"
+    "url": "https://github.com/lisb/pdfme/issues"
   },
   "main": "dist/cjs/src/index.js",
   "module": "dist/esm/src/index.js",
@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@pdf-lib/fontkit": "^1.1.1",
-    "@pdfme/common": "^1.0.0",
+    "@lisb/pdfme-common": "^1.0.0",
     "atob": "^2.1.2",
     "bwip-js": "^3.2.2",
     "pdf-lib": "^1.17.1"
