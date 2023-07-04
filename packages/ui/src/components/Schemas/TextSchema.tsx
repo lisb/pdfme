@@ -34,8 +34,7 @@ const TextSchemaUI = (
     color: schema.fontColor ? schema.fontColor : DEFAULT_FONT_COLOR,
     backgroundColor:
       schema.data && schema.backgroundColor ? schema.backgroundColor : 'rgb(242 244 255 / 75%)',
-    overflowY: "hidden",    
-    overflowY: 'hidden',
+    overflowY: "hidden",
   };
 
   return editable ? (
